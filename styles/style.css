@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "CursedTimer";
+  src: url('./CursedTimerUlil-Aznm.ttf') format('ttf');
+}
+
+
+/* Defining the colors that will be used in the game. */
+:root {
+  --black: #080001;
+  --white: #EEEEEE;
+  --yellow: #FCD34D;
+  --blue: #0C4A6E;
+  --light-gray: #9CA3AF;
+}
+
+*{
+  margin: 0px;
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 575px;
+  height: 385px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  border: 3px solid var(--white);
+  box-shadow: -5px 5px 10px var(--black);
+}
+
+.section{
+  width: 165px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--white);
+  font-size: 45px;
+}
+.score {
+  color: var(--yellow);
+  width: 155px;
+  height: 120px;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  border-radius: 10px;
+  box-shadow: -2px 2px 2px var(--light-gray);
+}
+.buttons{
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  color: var(--white)
+}
+
+.btn {
+  width: 43px;
+  height: 43px;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 1px 4px var(--black);
+}
+.btn:hover {
+  transform: scale(1.1);
+}

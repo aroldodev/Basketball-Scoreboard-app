@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>🏀 Basketball Scoreboard 🏀</title>
+</head>
+<body>
+  <hero class="main">
+    <main class="scoreboard">
+      <div class="section">
+        <h1 class="title">HOME</h1>
+        <div class="score" id="home-score">0</div>
+        <div class="buttons">
+          <div class="btn-1 btn" onclick="home1()">+1</div>
+          <div class="btn-2 btn" onclick="home2()">+2</div>
+          <div class="btn-3 btn" onclick="home3()">+3</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h1 class="title">GUEST</h1>
+        <div class="score" id="guest-score">0</div>
+        <div class="buttons">
+          <div class="btn-1 btn" onclick="guest1()">+1</div>
+          <div class="btn-2 btn" onclick="guest2()">+2</div>
+          <div class="btn-3 btn" onclick="guest3()">+3</div>
+        </div>
+      </div>
+    </main>
+  </hero>
+
+  <script src="app.js"></script>
+</body>
+</html>
